@@ -12,7 +12,7 @@
 
 click here:  https://microversenelson.github.io/global-warming/
 
-## Live Demo
+## Watch a presentation
 watch a video of how it was made:
 https://www.loom.com/share/f5d4fbd480c04df38a9766cc26d7aad6
 
