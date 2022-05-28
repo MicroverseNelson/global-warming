@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-coming soon
+click here:  https://microversenelson.github.io/global-warming/
 
 ## To make a copy
 
