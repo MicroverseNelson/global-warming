@@ -1,7 +1,7 @@
 const hamburgerBtn = document.querySelector('.hamburger');
 const crossBtn = document.querySelector('.cross-icon');
 const navLinks = document.querySelectorAll('.navLink');
-const djData = [
+const speakerData = [
   {
     hidden: false,
     photo: './capstone_assets/greta.jpeg',
@@ -99,14 +99,14 @@ function loadFeaturedSpeakers(arr) {
 function renderSpeakers() {
   document.querySelector('.speakers-feature').innerHTML = '';
   if (visualViewport.width > 768) {
-    loadFeaturedSpeakers(djData);
-  } else loadFeaturedSpeakers(djData.filter((dj) => dj.hidden === false));
+    loadFeaturedSpeakers(speakerData);
+  } else loadFeaturedSpeakers(speakerData.filter((dj) => dj.hidden === false));
 }
 
 renderSpeakers();
 window.addEventListener('resize', renderSpeakers);
 
 document.getElementById('moreBtn').addEventListener('click', (e) => {
-  loadFeaturedSpeakers(djData.filter((dj) => dj.hidden === true));
+  loadFeaturedSpeakers(speakerData.filter((dj) => dj.hidden === true));
   e.target.remove();
 });
