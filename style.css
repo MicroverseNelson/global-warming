@@ -556,7 +556,7 @@
     background-color: #ca2f1e;
     transition: background-color 0.8s cubic-bezier(0.22, 1, 0.36, 1);
   }
-  
+
   .home-intro {
     background-image: url(./capstone_assets/main_big.png);
     background-size: 100% 100%;
@@ -840,7 +840,7 @@
 
 @media screen and (max-width: 768px) {
   .mobile-nav {
-    display: none;
+    display: block;
     position: absolute;
     background-color: #d3d3d3;
     width: 100vw;
