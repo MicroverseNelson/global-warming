@@ -829,13 +829,20 @@
   }
 
   .mobile-nav {
-     display: none;
+    display: none;
+    position: absolute;
+    background-color: #d3d3d3;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    padding: 65px 35px 0 30px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .mobile-nav {
-    display: none;
+    display: block;
     position: absolute;
     background-color: #d3d3d3;
     width: 100vw;
