@@ -433,6 +433,10 @@
     display: none;
   }
 
+  .mobile-nav {
+    display: none;
+  }
+
   .desktop-nav-1 {
     display: block;
     background-color: #3e3e3e;
@@ -483,6 +487,11 @@
   }
 
   */
+
+  .gwLogo img {
+    width: 210px;
+    margin-left: 500px;
+  }
 
   .desktop-nav-2 a img {
     width: 40px;
@@ -963,4 +972,9 @@
   .Footerlogo {
     display: none;
   }
+
+  .gwLogo img {
+    width: 210px;
+    margin-left: -60px;
+  } 
 }
