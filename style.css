@@ -433,6 +433,10 @@
     display: none;
   }
 
+  .mobile-nav {
+    display: none;
+  }
+
   .desktop-nav-1 {
     display: block;
     background-color: #3e3e3e;
@@ -547,6 +551,12 @@
     background-color: #ca2f1e;
     transition: background-color 0.8s cubic-bezier(0.22, 1, 0.36, 1);
   }
+
+  .gwLogo img {
+    width: 210px;
+    margin-left: 500px;
+  }
+  
 
   .home-intro {
     background-image: url(./capstone_assets/main_big.png);
@@ -952,4 +962,10 @@
   .Footerlogo {
     display: none;
   }
+
+  .gwLogo img {
+    width: 210px;
+    margin-left: -60px;
+  }
+  
 }
